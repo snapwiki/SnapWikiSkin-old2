@@ -1,1 +1,1 @@
-// scripts can go here
+console.log('SnapWikiSkin Loaded')
