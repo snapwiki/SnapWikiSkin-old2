@@ -1,0 +1,36 @@
+<nav id="top-bar">
+    <div class="pure-menu-horizontal pure-menu">
+        <ul class="pure-g pure-menu-list">
+            <a class="pure-u-1-12" href="https://snap.berkeley.edu/" aria-label="Snap! home page"><img src="https://static.miraheze.org/snapwikiwiki/d/dd/Topbar-logo.png" class="logo clickable" /></a>
+            <span class="pure-u-5-12">
+                <li class="pure-menu-item">
+                    <a localizable="" class="pure-menu-link run" target="_blank" href="https://snap.berkeley.edu/snap/snap.html">Run Snap<em>!</em></a>
+                </li>
+                <li class="pure-menu-item"><a localizable="" class="pure-menu-link explore" href="https://snap.berkeley.edu/explore">Explore</a></li>
+                <li class="pure-menu-item"><a localizable="" class="pure-menu-link forum" href="https://forum.snap.berkeley.edu/">Forum</a></li>
+                <!--   =======   Snap!Con   =======<li class="pure-menu-item"><a localizable class="pure-menu-link" target="_blank"href="https://www.snapcon.org">Snap<em>!</em>Con</a></li>-->
+            </span>
+        </ul>
+    </div>
+</nav>
+<header class="mw-header">
+	{{>Logo}}
+	{{>PersonalMenu}}
+	{{>Search}}
+</header>
+{{>Sidebar}}
+{{>Notices}}
+<main id="content" class="mw-body">
+	<header class="content__header">
+		{{>ContentIndicators}}
+		{{>ContentHeading}}
+		{{>ContentTagline}}
+		{{>ContentNamespaces}}
+		{{>ContentActions}}
+	</header>
+	{{>ContentBody}}
+</main>
+<nav>
+	{{>Languages}}
+</nav>
+{{>Footer}}
