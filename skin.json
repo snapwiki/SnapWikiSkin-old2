@@ -18,7 +18,7 @@
       "args": [
         {
           "name": "SnapWikiSkin",
-          "templateDirectory": "skins/SnapWikiSkin/templates/",
+          "templateDirectory": "skins/SnapWikiSkin/templates",
           "messages": [
             "msg-sitetitle"
           ],
