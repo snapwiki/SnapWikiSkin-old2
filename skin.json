@@ -1,0 +1,64 @@
+{
+  "name": "SnapWikiSkin",
+  "version": "1.0.0",
+  "namemsg": "skinname-snapwikiskin",
+  "descriptionmsg": "snapwikiskin-skin-desc",
+  "url": "https://www.mediawiki.org/wiki/Skin:SnapWikiSkin",
+  "author": [
+    "[https://skins.wmflabs.org skins.wmflabs.org v.1.0]"
+  ],
+  "type": "skin",
+  "requires": {
+    "MediaWiki": ">= 1.36.0"
+  },
+  "manifest_version": 2,
+  "ValidSkinNames": {
+    "snapwikiskin": {
+      "class": "SkinMustache",
+      "args": [
+        {
+          "name": "SnapWikiSkin",
+          "templateDirectory": "skins/SnapWikiSkin/templates/",
+          "messages": [
+            "msg-sitetitle"
+          ],
+          "styles": [
+            "skins.snapwikiskin.styles"
+          ],
+          "scripts": [
+            "skins.snapwikiskin"
+          ]
+        }
+      ]
+    }
+  },
+  "MessagesDirs": {
+    "SnapWikiSkin": [
+      "i18n"
+    ]
+  },
+  "ResourceFileModulePaths": {
+    "localBasePath": "",
+    "remoteSkinPath": "SnapWikiSkin"
+  },
+  "ResourceModules": {
+    "skins.snapwikiskin.styles": {
+      "class": "ResourceLoaderSkinModule",
+      "features": {
+        "normalize": true,
+        "elements": true,
+        "content": true,
+        "interface": true,
+        "toc": true
+      },
+      "styles": [
+        "resources/skin.css"
+      ]
+    },
+    "skins.snapwikiskin": {
+      "packageFiles": [
+        "resources/skin.js"
+      ]
+    }
+  }
+}
