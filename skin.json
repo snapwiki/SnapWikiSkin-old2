@@ -22,12 +22,12 @@
           "messages": [
             "msg-sitetitle"
           ],
-          "styles": {
-            "resources/skin.css"
-          },
-          "scripts": {
-            "resources/skin.js"
-          }
+          "styles": [
+            "skins.snapwikiskin.styles"
+          ],
+          "scripts": [
+            "skins.snapwikiskin"
+          ]
         }
       ]
     }
